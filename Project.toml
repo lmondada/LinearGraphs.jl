@@ -1,0 +1,7 @@
+name = "LinearGraphs"
+uuid = "5f5f330d-6591-49af-82da-3534a44f77a2"
+authors = ["Luca Mondada <luca.mondada@cambridgequantum.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.2"
