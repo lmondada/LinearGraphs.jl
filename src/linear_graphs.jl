@@ -142,6 +142,8 @@ function line(g::LinearGraph; line)
     return path
 end
 
+nlines(g::LinearGraph) = length(g.ins)
+
 function Graphs.add_vertex!(g::LinearGraph, lines...)
     add_vertex!(underlying(g)) || return false
     push!(g.linenb, [])

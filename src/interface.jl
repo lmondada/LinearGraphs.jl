@@ -31,6 +31,13 @@ An entire path on line `l` from input to output.
 line(g::AbstractLinearGraph; line) = error("Not implemented")
 
 """
+    nlines(g)
+
+The number of lines in `g`.
+"""
+nlines(g::AbstractLinearGraph) = error("Not implemented")
+
+"""
     isinitial(g, v)
 
 Whether `v` is an input vertex.
