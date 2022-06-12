@@ -3,5 +3,8 @@ uuid = "5f5f330d-6591-49af-82da-3534a44f77a2"
 authors = ["Luca Mondada <luca.mondada@cambridgequantum.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+
 [compat]
 julia = "1.2"
